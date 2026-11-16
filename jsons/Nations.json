@@ -20,7 +20,7 @@
     "tradeRequest": "O Império de Odaka apresenta uma proposta comercial.",
 
     "uniqueName": "Ordem e Abundância",
-    "uniqueText": "A prosperidade sustenta o império; a disciplina protege suas terras.",  
+    "uniqueText": "A prosperidade sustenta o império; a disciplina protege suas terras.\n\nFazendas: +1 Alimento.\nBarcos de pesca: +1 Alimento e +1 Produção.\nDefesa: +10% de força ao defender seu território.",
 "uniques": [
   "[+1 Food] from [Farm] tiles [in all cities]",
   "[+1 Food, +1 Production] from [Fishing Boats] tiles [in all cities]",
