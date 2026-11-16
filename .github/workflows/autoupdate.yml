@@ -7,7 +7,6 @@ on:
     paths:
       - 'Images/**'
       - '.github/workflows/autoupdate.yml'
-
   workflow_dispatch:
 
 permissions:
@@ -29,8 +28,16 @@ jobs:
           java-version: '21'
 
       - name: Download Unciv
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          url=$(curl -fsSL https://api.github.com/repos/yairm210/Unciv/releases/latest | grep -o 'https[^"]*Unciv.jar' | head -n 1)
+          url=$(curl -fsSL \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            https://api.github.com/repos/yairm210/Unciv/releases/latest \
+            | jq -r '.assets[] | select(.name == "Unciv.jar") | .browser_download_url' \
+            | head -n 1)
+
           test -n "$url"
           curl -fL "$url" -o Unciv.jar
 
@@ -43,5 +50,5 @@ jobs:
           branch: automation/texture-atlas
           commit-message: "Generate Unciv texture atlas"
           title: "Generate Unciv texture atlas"
-          body: "Automatic generation of game.png and game.atlas."
+          body: "Automatic generation of Unciv texture atlas."
           delete-branch: true
