@@ -19,6 +19,14 @@
     "hateHello": "O que deseja desta vez?",
     "tradeRequest": "O Império de Odaka apresenta uma proposta comercial.",
 
+    "uniqueName": "Ordem e Abundância",
+    "uniqueText": "A prosperidade sustenta o império; a disciplina protege suas terras.",
+    "uniques": [
+      "[+1 Food] from [Farm] tiles",
+      "[+1 Food, +1 Production] from [Fishing Boats] tiles",
+      "[+10]% Strength <when defending>"
+    ],
+
     "outerColor": [30, 45, 85],
     "innerColor": [225, 225, 235],
 
