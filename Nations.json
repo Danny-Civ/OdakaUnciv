@@ -1,0 +1,43 @@
+
+[
+  {
+    "name": "Império de Odaka",
+    "leaderName": "Imperador de Odaka",
+    "adjective": [
+      "Odakano"
+    ],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "Saudações, viajante. Você está diante do glorioso Império de Odaka.",
+    "startIntroPart2": "Sob o domínio de seu imperador, Odaka busca expandir sua influência e construir um legado que resistirá ao passar dos séculos.",
+
+    "declaringWar": "Odaka não teme conflitos. Prepare-se para enfrentar o poder imperial!",
+    "attacked": "Você ousou desafiar o Império de Odaka. Não esqueceremos essa afronta!",
+    "defeated": "O império pode cair, mas seu legado jamais será esquecido.",
+    "introduction": "Sou o representante do Império de Odaka. Que nossas relações sejam prósperas.",
+    "neutralHello": "O Império de Odaka saúda sua presença.",
+    "hateHello": "O que deseja desta vez?",
+    "tradeRequest": "O Império de Odaka apresenta uma proposta comercial.",
+
+    "outerColor": [30, 45, 85],
+    "innerColor": [225, 225, 235],
+
+    "cities": [
+      "Odaka",
+      "Hoshima",
+      "Takayama",
+      "Kuroshima",
+      "Akimori",
+      "Fuyukawa",
+      "Tsukihara",
+      "Mizukawa",
+      "Harushima",
+      "Kazemura",
+      "Yorukawa",
+      "Shirogane",
+      "Akatsuki",
+      "Moriyama",
+      "Kagemori"
+    ]
+  }
+]
