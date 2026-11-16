@@ -1,0 +1,47 @@
+
+name: Generate Unciv Texture Atlas
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Images/**'
+      - '.github/workflows/autoupdate.yml'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate-atlas:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Download Unciv
+        run: |
+          url=$(curl -fsSL https://api.github.com/repos/yairm210/Unciv/releases/latest | grep -o 'https[^"]*Unciv.jar' | head -n 1)
+          test -n "$url"
+          curl -fL "$url" -o Unciv.jar
+
+      - name: Generate texture atlas
+        run: java -jar Unciv.jar mod-ci
+
+      - name: Create update pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: automation/texture-atlas
+          commit-message: "Generate Unciv texture atlas"
+          title: "Generate Unciv texture atlas"
+          body: "Automatic generation of game.png and game.atlas."
+          delete-branch: true
