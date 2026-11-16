@@ -1,0 +1,25 @@
+
+[
+  {
+    "name": "Guarda Imperial de Odaka",
+    "unitType": "Sword",
+    "replaces": "Longswordsman",
+    "uniqueTo": "Império de Odaka",
+    "movement": 2,
+    "strength": 21,
+    "cost": 130,
+    "requiredTech": "Steel",
+    "obsoleteTech": "Gunpowder",
+    "requiredResource": "Iron",
+    "upgradesTo": "Musketman",
+    "uniques": [
+      "[+15]% Strength <when defending>"
+    ],
+    "attackSound": "metalhit",
+    "civilopediaText": [
+      {
+        "text": "A elite militar do Império de Odaka. Treinada para proteger as terras imperiais, sua disciplina e resistência fazem dela uma força defensiva de grande prestígio."
+      }
+    ]
+  }
+]
