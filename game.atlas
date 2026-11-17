@@ -6,28 +6,35 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Império de Odaka
   rotate: false
-  xy: 628, 104
+  xy: 836, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Cavalaria Imperial de Odaka
+UnitIcons/Besteiro de Odaka
   rotate: false
   xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Guarda Imperial de Odaka
+UnitIcons/Cavalaria Imperial de Odaka
   rotate: false
   xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Milícia de Raf
+UnitIcons/Guarda Imperial de Odaka
   rotate: false
   xy: 420, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Milícia de Raf
+  rotate: false
+  xy: 628, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
