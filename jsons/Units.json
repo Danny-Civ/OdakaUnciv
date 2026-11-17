@@ -69,5 +69,26 @@
         "text": "Milícia formada por jovens odakanos que desejam ingressar no exército imperial. Seguindo os ensinamentos de Raf, Deus da Violência, esses jovens recebem treinamento militar e aprendem as doutrinas e a disciplina do exército de Odaka."
       }
     ]
+  },
+  {
+  "name": "Besteiro de Odaka",
+  "unitType": "Archery",
+  "replaces": "Crossbowman",
+  "uniqueTo": "Império de Odaka",
+  "movement": 2,
+  "strength": 13,
+  "rangedStrength": 18,
+  "cost": 120,
+  "requiredTech": "Machinery",
+  "obsoleteTech": "Industrialization",
+  "upgradesTo": "Composite Bowman",
+  "promotions": ["Accuracy I"],
+  "uniques": [],
+  "attackSound": "arrow",
+  "civilopediaText":[
+    {
+      "text": "Besteiro treinado com uma tecnologia avançada desenvolvida pelo Império de Odaka. Equipado com uma besta de disparo rápido, é capaz de realizar mais ataques durante um mesmo turno, tornando-se uma unidade perigosa no campo de batalha."
+    }
+  ]
   }
 ]
