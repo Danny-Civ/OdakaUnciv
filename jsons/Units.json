@@ -21,5 +21,31 @@
         "text": "A elite militar do Império de Odaka. Treinada para proteger as terras imperiais, sua disciplina e resistência fazem dela uma força defensiva de grande prestígio."
       }
     ]
+  },
+  {
+    "name": "Cavalaria Imperial de Odaka",
+    "unitType": "Mounted",
+    "replaces": "Cavalry",
+    "uniqueTo": "Império de Odaka",
+    "movement": 4,
+    "strength": 34,
+    "cost": 259,
+    "requiredTech": "Military Science",
+    "obsoleteTech": "Combustion",
+    "requiredResource": "Horses",
+    "upgradesTo": "Landship",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "[-33]% Strength <vs cities> <when attacking>",
+      "Never appears as a Barbarian unit",
+      "[+5]% Strength"
+    ],
+    "attackSound": "cavalry",
+    "civilopediaText": [
+      {
+        "text": "A cavalaria de elite do Império de Odaka. Seus cavaleiros combinam mobilidade, disciplina e força para defender e ampliar a influência imperial."
+      }
+    ]
   }
 ]
