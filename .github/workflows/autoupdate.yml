@@ -42,7 +42,10 @@ jobs:
           curl -fL "$url" -o Unciv.jar
 
       - name: Generate texture atlas
-        run: java -jar Unciv.jar mod-ci
+        run: |
+          rm -f game.atlas game.png
+          java -jar Unciv.jar mod-ci
+          rm -f Unciv.jar
 
       - name: Create update pull request
         uses: peter-evans/create-pull-request@v8
