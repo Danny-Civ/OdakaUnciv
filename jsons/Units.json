@@ -82,7 +82,7 @@
   "requiredTech": "Machinery",
   "obsoleteTech": "Industrialization",
   "upgradesTo": "Composite Bowman",
-  "promotions": ["Accuracy I"],
+  "promotions": ["Accuracy I", "Logistics"],
   "uniques": [],
   "attackSound": "arrow",
   "civilopediaText":[
