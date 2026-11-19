@@ -90,5 +90,27 @@
       "text": "Besteiro treinado com uma tecnologia avançada desenvolvida pelo Império de Odaka. Equipado com uma besta de disparo rápido, é capaz de realizar mais ataques durante um mesmo turno, tornando-se uma unidade perigosa no campo de batalha."
     }
   ]
+  },
+  {
+    "name":"Pajé de Raf",
+    "unitType": "Civilian",
+    "replaces": "Great General",
+    "uniqueTo": "Império de Odaka",
+    "movement": 2,
+    "uniques": [
+  "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+  "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+  "Can be earned through combat <for [Land] units>",
+  "Is part of Great Person group [General]",
+  "[This Unit] gets a name from the [General] group",
+  "Great Person - [War]",
+  "Unbuildable",
+  "Uncapturable"
+    ],
+  "civilopediaText": [
+    {
+      "text": "Líder religioso e devoto seguidor de Raf, Deus da Violência. Sua presença inspira os soldados de Odaka, aumentando a capacidade de combate das unidades próximas."
+    } 
+  ]
   }
 ]
