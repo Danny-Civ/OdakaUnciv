@@ -97,6 +97,7 @@
     "replaces": "Great General",
     "uniqueTo": "Império de Odaka",
     "movement": 2,
+    "promotions": ["Great Generals I", "Great Generals II", "Devout"],
     "uniques": [
   "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
   "Can instantly construct a [Citadel] improvement <by consuming this unit>",
