@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Bênção dos Campos",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Culture, +1 Faith] from every [Farm]",
+      "[+1 Culture, +1 Faith] from every [Plantation]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A bênção do Deus dos Campos concede cultura e fé às cidades por meio de suas fazendas e plantações."
+      }
+    ]
+  },
+  {
+    "name": "Mãos dos Artesãos",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Culture, +1 Faith] from every [Factory]",
+      "[+1 Culture, +1 Faith] from every [Mine]",
+      "[+1 Culture, +1 Faith] from every [Lumber mill]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A bênção do Deus do Artesanato recompensa o trabalho, a mineração e a produção das civilizações que seguem Polyemos."
+      }
+    ]
+  },
+  {
+    "name": "Prosperidade das Economias",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Culture, +1 Faith, +1 Gold] from every [Plantation]",
+      "[+1 Culture, +1 Faith, +1 Gold] from every [Trading post]",
+      "[+1 Culture, +1 Faith, +1 Gold] from every [Customs house]",
+      "[+1 Culture, +1 Faith, +1 Gold] from every [Citadel]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A bênção do Deus das Economias recompensa as civilizações que desenvolvem suas plantações, seu comércio e suas atividades econômicas."
+      }
+    ]
+  }
+]
