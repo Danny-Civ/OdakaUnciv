@@ -11,6 +11,13 @@ NationIcons/Império de Odaka
   orig: 100, 100
   offset: 0, 0
   index: -1
+ReligionIcons/Polyemos
+  rotate: false
+  xy: 1152, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Besteiro de Odaka
   rotate: false
   xy: 4, 4
