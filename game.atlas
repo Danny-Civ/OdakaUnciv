@@ -1,12 +1,12 @@
 
 game.png
-size: 1024, 256
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Império de Odaka
   rotate: false
-  xy: 836, 104
+  xy: 1044, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -35,6 +35,13 @@ UnitIcons/Guarda Imperial de Odaka
 UnitIcons/Milícia de Raf
   rotate: false
   xy: 628, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Pajé de Raf
+  rotate: false
+  xy: 836, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
