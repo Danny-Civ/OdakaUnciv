@@ -119,12 +119,12 @@
   "unitType": "Sword",
   "replaces": "Pikeman",
   "uniqueTo":"Império de Odaka",
-  "movement": 4,
+  "movement": 2,
   "strength": 16,
   "cost": 125,
   "requiredTech":"Civil Service",
-  "obsoleteTech": "Military Science",
-  "upgradesTo": "Cavalaria Imperial de Odaka",
+  "obsoleteTech": "Metallurgy",
+  "upgradesTo": "Milícia Armada",
   "promotions": ["Mohawk Warrior", "Medic I", "Woodsman"],
   "uniques": [
     "[+5]% Strength <when attacking>",
@@ -136,5 +136,27 @@
       "text":"Uma força composta por milicianos e soldados de infantaria, treinados especialmente para o combate em florestas e selvas. Utilizam o terreno natural para obter vantagens táticas e surpreender seus adversários."
     }
   ]
-}
+},
+  {
+    "name":"Milícia Armada",
+    "unitType":"Gunpowder",
+    "rellaces":"Lancer",
+    "uniqueTo":"Imperio de Odaka",
+    "movement":2,
+    "strength":20,
+    "cost":180,
+    "requiredTech":"Metallurgy",
+    "obsoleteTech":"Combined Arms",
+    "upgradesTo":"Anti-Tank Gun",
+    "promotions": ["Besiege", "Medic I", "Sipahi"],
+    "uniques":[
+      "[+5]% Strength <when fighting in [Enemy Land] tiles>"
+    ], 
+    "attackSound":"shot",
+    "civilopediaText":[
+      {
+        "text":"Grupo de jovens e adultos que desejam ingressar no exército do Império de Odaka. Armados com armas de pólvora, esses milicianos recebem treinamento para combater em territórios estrangeiros, onde conseguem aproveitar vantagens táticas."
+      }
+    ]
+  }
 ]
