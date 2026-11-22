@@ -6,14 +6,21 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Império de Odaka
   rotate: false
-  xy: 1460, 104
+  xy: 1568, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Polyemos
   rotate: false
-  xy: 1568, 104
+  xy: 1676, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechPortraits/Arcanismo
+  rotate: false
+  xy: 1460, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
