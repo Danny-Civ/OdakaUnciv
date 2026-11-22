@@ -125,7 +125,7 @@
   "requiredTech":"Civil Service",
   "obsoleteTech": "Metallurgy",
   "upgradesTo": "Milícia Armada",
-  "promotions": ["Mohawk Warrior", "Medic", "Woodsman"],
+  "promotions": ["Mohawk Warrior ability", "Medic", "Woodsman"],
   "uniques": [
     "[+5]% Strength <when attacking>",
     "[-10]% Strength <when defending"
