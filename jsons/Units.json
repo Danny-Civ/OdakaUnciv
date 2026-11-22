@@ -125,7 +125,7 @@
   "requiredTech":"Civil Service",
   "obsoleteTech": "Metallurgy",
   "upgradesTo": "Milícia Armada",
-  "promotions": ["Mohawk Warrior ability", "Medic", "Woodsman"],
+  "promotions": ["Shock I", "Medic", "Woodsman"],
   "uniques": [
     "[+5]% Strength <when attacking>",
     "[-10]% Strength <when defending"
@@ -148,7 +148,7 @@
     "requiredTech":"Metallurgy",
     "obsoleteTech":"Combined Arms",
     "upgradesTo":"Anti-Tank Gun",
-    "promotions": ["Besiege", "Medic", "Sipahi"],
+    "promotions": ["Besiege", "Medic", "March"],
     "uniques":[
       "[+5]% Strength <when fighting in [Enemy Land] tiles>"
     ], 
