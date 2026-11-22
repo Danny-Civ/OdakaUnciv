@@ -113,5 +113,28 @@
       "text": "Líder religioso e devoto seguidor de Raf, Deus da Violência. Sua presença inspira os soldados de Odaka, aumentando a capacidade de combate das unidades próximas."
     } 
   ]
-  }
+  },
+{
+  "name":"Lanceiro de Guerrilha",
+  "unitType": "Sword",
+  "replaces": "Pikeman",
+  "uniqueTo":"Império de Odaka",
+  "movement": 4,
+  "strength": 16,
+  "cost": 125,
+  "requiredTech":"Civil Service",
+  "obsoleteTech": "Military Science",
+  "upgradesTo": "Cavalaria Imperial de Odaka",
+  "promotions": ["Mohawk Warrior", "Medic I", "Woodsman"],
+  "uniques": [
+    "[+5]% Strength <when attacking>",
+    "[-10]% Strength <when defending"
+  ],
+  "attackSound":"metalhit",
+  "civilopediaText":[
+    {
+      "text":"Uma força composta por milicianos e soldados de infantaria, treinados especialmente para o combate em florestas e selvas. Utilizam o terreno natural para obter vantagens táticas e surpreender seus adversários."
+    }
+  ]
+}
 ]
