@@ -9,7 +9,7 @@
     "techs": [
       {
         "name": "Arcanismo",
-        "row": 3,
+        "row": 8,
         "prerequisites": [
           "Masonry",
           "The Wheel"
