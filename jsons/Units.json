@@ -127,8 +127,7 @@
   "upgradesTo": "Milícia Armada",
   "promotions": ["Shock I", "Medic", "Woodsman"],
   "uniques": [
-    "[+5]% Strength <when attacking>",
-    "[-10]% Strength <when defending"
+    "[+5]% Strength <when attacking>"
   ],
   "attackSound":"metalhit",
   "civilopediaText":[
@@ -140,8 +139,8 @@
   {
     "name":"Milícia Armada",
     "unitType":"Gunpowder",
-    "rellaces":"Lancer",
-    "uniqueTo":"Imperio de Odaka",
+    "replaces":"Lancer",
+    "uniqueTo":"Império de Odaka",
     "movement":2,
     "strength":20,
     "cost":180,
