@@ -1,75 +1,89 @@
 
 game.png
-size: 2048, 256
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Império de Odaka
   rotate: false
-  xy: 1568, 104
+  xy: 1044, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Polyemos
   rotate: false
-  xy: 1676, 104
+  xy: 1152, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechPortraits/Arcanismo
   rotate: false
-  xy: 1460, 104
+  xy: 836, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Besteiro de Odaka
   rotate: false
-  xy: 4, 4
+  xy: 4, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Cavalaria Imperial de Odaka
   rotate: false
-  xy: 212, 4
+  xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Guarda Imperial de Odaka
   rotate: false
-  xy: 420, 4
+  xy: 212, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Lanceiro de Guerrilha
   rotate: false
-  xy: 628, 4
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Milícia Armada
   rotate: false
-  xy: 836, 4
+  xy: 420, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Milícia Maritima
+  rotate: false
+  xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Milícia de Raf
   rotate: false
-  xy: 1044, 4
+  xy: 628, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Pajé de Raf
   rotate: false
-  xy: 1252, 4
+  xy: 628, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Pirata Contratado
+  rotate: false
+  xy: 836, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
