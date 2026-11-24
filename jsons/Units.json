@@ -160,7 +160,7 @@
   },
   {
     "name":"Milícia Maritima",
-    "unitType":"Melee Watet",
+    "unitType":"Melee Water",
     "replaces":"Trireme",
     "uniqueTo":"Império de Odaka",
     "movement":4,
@@ -169,7 +169,7 @@
     "requiredTech":"Sailing",
     "obsoleteTech":"Navigation",
     "upgradesTo":"Pirata Contratado",
-    "promotions":["Privateer"],
+    "promotions":["[Privateer] ability"],
     "uniques":[],
     "attackSound":"nonmetalhit",
     "civilopediaText":[
@@ -180,7 +180,7 @@
   },
   {
     "name":"Pirata Contratado",
-    "unitType":"Melee Watet",
+    "unitType":"Melee Water",
     "replaces":"Privateer",
     "uniqueTo":"Império de Odaka",
     "movement":5,
@@ -189,7 +189,7 @@
     "requiredTech":"Navigation",
     "obsoleteTech":"Combustion",
     "upgradesTo":"Destroyer",
-    "promotions":["Privateer","Coastal Raider I","Supply"],
+    "promotions":["[Privateer] ability","Coastal Raider I","Supply"],
     "uniques":[],
     "attackSound":"cannon",
     "civilopediaText":[
