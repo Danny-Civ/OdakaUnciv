@@ -81,7 +81,7 @@
   "cost": 120,
   "requiredTech": "Machinery",
   "obsoleteTech": "Industrialization",
-  "upgradesTo": "Composite Bowman",
+  "upgradesTo": "Gatling Gun",
   "promotions": ["Accuracy I", "Logistics"],
   "uniques": [],
   "attackSound": "arrow",
@@ -157,5 +157,47 @@
         "text":"Grupo de jovens e adultos que desejam ingressar no exército do Império de Odaka. Armados com armas de pólvora, esses milicianos recebem treinamento para combater em territórios estrangeiros, onde conseguem aproveitar vantagens táticas."
       }
     ]
+  },
+  {
+    "name":"Milícia Maritima",
+    "unitType":"Melee Watet",
+    "replaces":"Trireme",
+    "uniqueTo":"Império de Odaka",
+    "movement":4,
+    "strength":12,
+    "cost":45,
+    "requiredTech":"Sailing",
+    "obsoleteTech":"Navigation",
+    "upgradesTo":"Pirata Contratado",
+    "promotions":["Privateer"],
+    "uniques":[],
+    "attackSound":"nonmetalhit",
+    "civilopediaText":[
+      {
+        "text":"Um grupo de jovens e pescadores que, cansados de barbaros, decidem usar barcos e armas para proteger suas aguas."
+      }
+    ]
+  },
+  {
+    "name":"Pirata Contratado",
+    "unitType":"Melee Watet",
+    "replaces":"Privateer",
+    "uniqueTo":"Império de Odaka",
+    "movement":5,
+    "strength":27,
+    "cost":150,
+    "requiredTech":"Navigation",
+    "obsoleteTech":"Combustion",
+    "upgradesTo":"Destroyer",
+    "promotions":["Privateer","Coastal Raider I","Supply"],
+    "uniques":[],
+    "attackSound":"cannon",
+    "civilopediaText":[
+      {
+        "text":"Piratas contratados pelo Império para protegerem as águas de Odaka, e, destruir a de seus inimigos."
+      }
+    ]
   }
+]
+
 ]
